@@ -25,14 +25,14 @@ const Testimonials = () => {
     }
   ];
 
-  // Media logos
+  // Media logos - add image filenames to display logos instead of text
   const mediaLogos = [
-    { name: "actu.fr", color: "#1e88e5" },
-    { name: "Le Télégramme", color: "#d32f2f" },
-    { name: "TVR", color: "#7b1fa2" },
-    { name: "Ouest-France", color: "#e65100" },
-    { name: "France 3", color: "#0288d1" },
-    { name: "7 Jours", color: "#388e3c" }
+    { name: "actu.fr", image: "media-actu-fr.png" },
+    { name: "Le Télégramme", image: "media-le-telegramme.png" },
+    { name: "TVR", image: "media-tvr.png" },
+    { name: "Ouest-France", image: "media-ouest-france.png" },
+    { name: "France 3", image: "media-france-3.png" },
+    { name: "7 Jours", image: "media-7-jours.png" }
   ];
 
   // Mapping des photos pour chaque auteur B2C
@@ -55,7 +55,7 @@ const Testimonials = () => {
     <section className="relative" id="testimonials">
       <div className="flex flex-col lg:flex-row min-h-[800px]">
         {/* LEFT COLUMN - Testimonials */}
-        <div className="w-full lg:w-1/2 bg-gradient-to-br from-pink-100 via-pink-50 to-white py-16 px-6 md:px-12 lg:px-16">
+        <div className="w-full lg:w-1/2 bg-[#f5f2f0] py-16 px-6 md:px-12 lg:px-16">
           <div className="max-w-xl mx-auto lg:mx-0 lg:ml-auto lg:mr-8">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-[#2c2c2c] mb-4">
               {t("testimonials_section.title")}
@@ -140,12 +140,17 @@ const Testimonials = () => {
                     className={`bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform ${rotation} hover:rotate-0 hover:scale-105`}
                   >
                     <div className="flex items-center justify-center h-16">
-                      <span
-                        className="font-display font-bold text-lg md:text-xl"
-                        style={{ color: media.color }}
-                      >
-                        {media.name}
-                      </span>
+                      <img
+                        src={getAssetPath(media.image)}
+                        alt={media.name}
+                        className="max-h-12 max-w-full object-contain"
+                        onError={(e) => {
+                          // Fallback to text if image not found
+                          const target = e.target as HTMLImageElement;
+                          target.style.display = 'none';
+                          target.parentElement!.innerHTML = `<span class="font-display font-bold text-lg text-gray-600">${media.name}</span>`;
+                        }}
+                      />
                     </div>
                   </div>
                 );

@@ -50,7 +50,7 @@ const Index = () => {
       <LazyWrapper
         minHeight="800px"
         fallback={
-          <div className="flex items-center justify-center min-h-[800px] bg-gradient-to-br from-pink-100 via-pink-50 to-white">
+          <div className="flex items-center justify-center min-h-[800px] bg-[#f5f2f0]">
             <LoadingSpinner size="lg" text="Chargement des témoignages..." />
           </div>
         }
