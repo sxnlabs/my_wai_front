@@ -47,10 +47,10 @@ const Index = () => {
         <ExampleCalameo />
       </LazyWrapper>
       
-      <LazyWrapper 
-        minHeight="400px"
+      <LazyWrapper
+        minHeight="800px"
         fallback={
-          <div className="section-padding bg-white flex items-center justify-center">
+          <div className="flex items-center justify-center min-h-[800px] bg-gradient-to-br from-pink-100 via-pink-50 to-white">
             <LoadingSpinner size="lg" text="Chargement des témoignages..." />
           </div>
         }
