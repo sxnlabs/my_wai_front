@@ -59,6 +59,20 @@ const BloguePost = () => {
         fetchPost();
     }, [slug]);
 
+    // Mettre à jour le titre de la page
+    useEffect(() => {
+        if (post) {
+            document.title = `${post.title} - My Wai`;
+        } else if (!loading) {
+            document.title = "Article non trouvé - My Wai";
+        }
+
+        // Restaurer le titre par défaut lors du démontage
+        return () => {
+            document.title = "🎁 Offrez une biographie personnalisée – Livre souvenir My Wai";
+        };
+    }, [post, loading]);
+
     if (loading) {
         return (
             <div className="min-h-screen flex flex-col">

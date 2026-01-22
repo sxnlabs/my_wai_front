@@ -43,6 +43,16 @@ const Blogues = () => {
         fetchBlogues();
     }, []);
 
+    // Mettre à jour le titre de la page
+    useEffect(() => {
+        document.title = "Blog - My Wai";
+
+        // Restaurer le titre par défaut lors du démontage
+        return () => {
+            document.title = "🎁 Offrez une biographie personnalisée – Livre souvenir My Wai";
+        };
+    }, []);
+
     return (
         <div className="min-h-screen flex flex-col">
             <Navbar />
