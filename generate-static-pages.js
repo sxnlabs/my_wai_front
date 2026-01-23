@@ -107,6 +107,20 @@ const pages = [
     routePath: '/entreprise'
   },
   {
+    filename: 'blogues.html',
+    title: 'Blog - My Wai',
+    description: 'Découvrez nos articles, conseils et actualités autour de la transmission de mémoire et des biographies personnalisées.',
+    ogTitle: 'Blog - My Wai',
+    routePath: '/blogues'
+  },
+  {
+    filename: 'blogue.html',
+    title: 'Article - My Wai',
+    description: 'Lisez nos articles sur la transmission de mémoire, les histoires de vie et les biographies personnalisées avec My Wai.',
+    ogTitle: 'Article - My Wai',
+    routePath: '/blogue'
+  },
+  {
     filename: '404.html',
     title: 'Page non trouvée - My Wai',
     description: 'La page que vous recherchez n\'existe pas. Retournez à l\'accueil de My Wai pour créer votre biographie personnalisée.',
@@ -128,6 +142,8 @@ const redirectsContent = `/*    /index.html   200
 /cgu              /cgu.html           200
 /mentions-legales /mentions-legales.html 200
 /entreprise       /entreprise.html    200
+/blogues          /blogues.html       200
+/blogue/*         /blogue.html        200
 /404              /404.html           200
 `;
 
@@ -149,6 +165,14 @@ const vercelConfig = {
       "dest": "/entreprise.html"
     },
     {
+      "src": "/blogues",
+      "dest": "/blogues.html"
+    },
+    {
+      "src": "/blogue/(.*)",
+      "dest": "/blogue.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
@@ -163,6 +187,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^cgu$ /cgu.html [L]
 RewriteRule ^mentions-legales$ /mentions-legales.html [L]
 RewriteRule ^entreprise$ /entreprise.html [L]
+RewriteRule ^blogues$ /blogues.html [L]
+RewriteRule ^blogue/(.*)$ /blogue.html [L]
 
 RewriteRule ^(.*)$ /index.html [L]
 
