@@ -107,6 +107,13 @@ const pages = [
     routePath: '/entreprise'
   },
   {
+    filename: 'portfolio.html',
+    title: 'Nos Réalisations - MyWai',
+    description: 'Découvrez les biographies créées avec MyWai. Parcourez notre galerie de livres personnalisés pour anniversaires, départs en retraite, hommages et autres occasions spéciales.',
+    ogTitle: 'Galerie des Réalisations - MyWai',
+    routePath: '/portfolio'
+  },
+  {
     filename: '404.html',
     title: 'Page non trouvée - MyWai',
     description: 'La page que vous recherchez n\'existe pas. Retournez à l\'accueil de MyWai pour créer votre biographie personnalisée.',
@@ -128,6 +135,7 @@ const redirectsContent = `/*    /index.html   200
 /cgu              /cgu.html           200
 /mentions-legales /mentions-legales.html 200
 /entreprise       /entreprise.html    200
+/portfolio        /portfolio.html     200
 /404              /404.html           200
 `;
 
@@ -149,6 +157,10 @@ const vercelConfig = {
       "dest": "/entreprise.html"
     },
     {
+      "src": "/portfolio",
+      "dest": "/portfolio.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
@@ -163,6 +175,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^cgu$ /cgu.html [L]
 RewriteRule ^mentions-legales$ /mentions-legales.html [L]
 RewriteRule ^entreprise$ /entreprise.html [L]
+RewriteRule ^portfolio$ /portfolio.html [L]
 
 RewriteRule ^(.*)$ /index.html [L]
 

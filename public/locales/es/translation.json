@@ -8,6 +8,7 @@
   "back_to_top": "Volver arriba",
   "navbar": {
     "about": "¿Qué es MyWai?",
+    "portfolio": "Galería",
     "account": "Mi cuenta",
     "try_free": "Prueba gratis",
     "language": "Idioma"
@@ -305,6 +306,116 @@
         "click_here": "clic aquí"
       }
     }
+  },
+  "portfolio": {
+    "hero_badge": "Nuestras creaciones",
+    "hero_title": "Descubre las biograf\u00edas creadas con MyWai",
+    "hero_subtitle": "Cada libro es \u00fanico, creado a partir de testimonios y recuerdos de seres queridos. Explora nuestra galer\u00eda para inspirarte.",
+    "hero_cta": "Crear mi biograf\u00eda",
+    "hero_cta_secondary": "Ver galer\u00eda",
+    "badge": "Galer\u00eda de libros",
+    "gallery_title": "Historias \u00fanicas, recuerdos preciosos",
+    "gallery_subtitle": "Cada libro MyWai cuenta una vida a trav\u00e9s de los ojos de quienes la compartieron. Cumplea\u00f1os, jubilaciones, homenajes... descubre la diversidad de nuestras creaciones.",
+    "stats": {
+      "books_created": "Libros creados",
+      "contributors": "Colaboradores",
+      "satisfaction": "Satisfacci\u00f3n",
+      "pages_avg": "P\u00e1ginas en promedio"
+    },
+    "book_for": "Libro para",
+    "contributors": "colaboradores",
+    "view_preview": "Ver vista previa del libro",
+    "create_similar": "Crear un libro similar",
+    "cta_text": "T\u00fa tambi\u00e9n puedes dar un regalo inolvidable a alguien que amas",
+    "cta_button": "Comenzar mi libro",
+    "testimonial_quote": "Cuando recib\u00ed este libro lleno de recuerdos de mi familia y amigos, entend\u00ed que era el regalo m\u00e1s hermoso que alguien pod\u00eda darme. Cada p\u00e1gina es un tesoro.",
+    "testimonial_author": "Marie L.",
+    "testimonial_role": "Recibi\u00f3 un libro por sus 70 a\u00f1os",
+    "final_cta_title": "\u00bfListo para crear tu propio libro?",
+    "final_cta_subtitle": "\u00danete a las cientos de familias que ya han inmortalizado sus recuerdos con MyWai.",
+    "final_cta_button": "Comenzar gratis",
+    "books": [
+      {
+        "id": "1",
+        "name": "Marie Laurent",
+        "image": "1. Marie Laurent .png",
+        "occasion": "Cumplea\u00f1os 70",
+        "description": "Un libro emotivo que recorre 70 a\u00f1os de vida, viajes y momentos compartidos en familia.",
+        "contributors": 24
+      },
+      {
+        "id": "2",
+        "name": "Alain Girard",
+        "image": "1. Alain Girard.png",
+        "occasion": "Jubilaci\u00f3n",
+        "description": "Despu\u00e9s de 35 a\u00f1os de carrera, sus colegas y amigos le dieron este testimonio \u00fanico.",
+        "contributors": 42
+      },
+      {
+        "id": "3",
+        "name": "Clara Petit",
+        "image": "1. Clara Petit.png",
+        "occasion": "Cumplea\u00f1os 40",
+        "description": "Sus amigos de la infancia reunieron sus mejores recuerdos para este hito importante.",
+        "contributors": 18
+      },
+      {
+        "id": "4",
+        "name": "\u00c9lodie Martin",
+        "image": "1. Elodie Martin.png",
+        "occasion": "Regalo de boda",
+        "description": "Un libro creado por ambas familias para celebrar la uni\u00f3n de dos historias.",
+        "contributors": 35
+      },
+      {
+        "id": "5",
+        "name": "Julien Thomas",
+        "image": "1. Julien Thomas .png",
+        "occasion": "Cumplea\u00f1os 50",
+        "description": "Medio siglo de recuerdos reunidos por su familia y amigos cercanos.",
+        "contributors": 28
+      },
+      {
+        "id": "6",
+        "name": "Lucas Moreau",
+        "image": "1. Lucas Moreau.png",
+        "occasion": "Homenaje",
+        "description": "Un libro memorial para mantener vivos los recuerdos de un ser querido.",
+        "contributors": 56
+      },
+      {
+        "id": "7",
+        "name": "Nora Benali",
+        "image": "1. Nora Benali.png",
+        "occasion": "Cumplea\u00f1os 30",
+        "description": "Sus amigos quisieron marcar esta d\u00e9cada con un libro lleno de risas y aventuras.",
+        "contributors": 22
+      },
+      {
+        "id": "8",
+        "name": "Pierre Leroy",
+        "image": "1. Pierre Leroy .png",
+        "occasion": "Jubilaci\u00f3n",
+        "description": "40 a\u00f1os en la ense\u00f1anza, generaciones de alumnos contribuyeron a este libro.",
+        "contributors": 89
+      },
+      {
+        "id": "9",
+        "name": "Sophie Dubois",
+        "image": "2. Sophie Dubois.png",
+        "occasion": "Cumplea\u00f1os 60",
+        "description": "Sus hijos y nietos crearon este libro para celebrar a su mam\u00e1 y abuela.",
+        "contributors": 31
+      },
+      {
+        "id": "10",
+        "name": "Thomas Bernard",
+        "image": "2. Thomas Bernard.png",
+        "occasion": "Regalo D\u00eda del Padre",
+        "description": "Un libro sorpresa organizado por sus hijos para el D\u00eda del Padre.",
+        "contributors": 15
+      }
+    ]
   },
   "b2b": {
     "hero": {

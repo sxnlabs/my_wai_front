@@ -12,6 +12,7 @@ const Navbar = () => {
   const location = useLocation();
   const isEntreprise = location.pathname.startsWith("/entreprise");
   const isHome = location.pathname === "/" || location.pathname === "/index";
+  const isPortfolio = location.pathname === "/p/portfolio";
 
   const baseNavLink =
     "relative px-1 transition-colors after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:rounded-full after:transition-all after:duration-300";
@@ -68,6 +69,14 @@ const Navbar = () => {
             onClick={() => setIsMenuOpen(false)}
           >
             {t("navbar.about")}
+          </Link>
+          <Link
+            to="/p/portfolio"
+            className={`${baseNavLink} ${isPortfolio ? activeClasses : inactiveClasses}`}
+            aria-current={isPortfolio ? "page" : undefined}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            {t("navbar.portfolio")}
           </Link>
           <Link
             to="/p/enterprise"
@@ -175,6 +184,14 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               {t("navbar.about")}
+            </Link>
+            <Link
+              to="/p/portfolio"
+              className={`py-2 ${baseNavLink} ${isPortfolio ? activeClasses : inactiveClasses}`}
+              aria-current={isPortfolio ? "page" : undefined}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {t("navbar.portfolio")}
             </Link>
             <Link
               to="/p/enterprise"

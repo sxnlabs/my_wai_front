@@ -8,6 +8,7 @@
   "back_to_top": "Back to top",
   "navbar": {
     "about": "What is MyWai?",
+    "portfolio": "Gallery",
     "account": "My account",
     "try_free": "Try for free",
     "language": "Language"
@@ -305,6 +306,116 @@
         "click_here": "clicking here"
       }
     }
+  },
+  "portfolio": {
+    "hero_badge": "Our creations",
+    "hero_title": "Discover biographies created with MyWai",
+    "hero_subtitle": "Each book is unique, created from testimonials and memories of loved ones. Browse our gallery for inspiration.",
+    "hero_cta": "Create my biography",
+    "hero_cta_secondary": "View gallery",
+    "badge": "Book gallery",
+    "gallery_title": "Unique stories, precious memories",
+    "gallery_subtitle": "Each MyWai book tells a life through the eyes of those who shared it. Birthdays, retirements, tributes... discover the diversity of our creations.",
+    "stats": {
+      "books_created": "Books created",
+      "contributors": "Contributors",
+      "satisfaction": "Satisfaction",
+      "pages_avg": "Pages on average"
+    },
+    "book_for": "Book for",
+    "contributors": "contributors",
+    "view_preview": "View book preview",
+    "create_similar": "Create a similar book",
+    "cta_text": "You too can give an unforgettable gift to someone you love",
+    "cta_button": "Start my book",
+    "testimonial_quote": "When I received this book filled with memories from my family and friends, I understood it was the most beautiful gift anyone could give me. Every page is a treasure.",
+    "testimonial_author": "Marie L.",
+    "testimonial_role": "Received a book for her 70th birthday",
+    "final_cta_title": "Ready to create your own book?",
+    "final_cta_subtitle": "Join the hundreds of families who have already immortalized their memories with MyWai.",
+    "final_cta_button": "Start for free",
+    "books": [
+      {
+        "id": "1",
+        "name": "Marie Laurent",
+        "image": "1. Marie Laurent .png",
+        "occasion": "70th Birthday",
+        "description": "A moving book retracing 70 years of life, travels and moments shared with family.",
+        "contributors": 24
+      },
+      {
+        "id": "2",
+        "name": "Alain Girard",
+        "image": "1. Alain Girard.png",
+        "occasion": "Retirement",
+        "description": "After 35 years of career, his colleagues and friends gave him this unique testimony.",
+        "contributors": 42
+      },
+      {
+        "id": "3",
+        "name": "Clara Petit",
+        "image": "1. Clara Petit.png",
+        "occasion": "40th Birthday",
+        "description": "Her childhood friends gathered their most beautiful memories for this important milestone.",
+        "contributors": 18
+      },
+      {
+        "id": "4",
+        "name": "\u00c9lodie Martin",
+        "image": "1. Elodie Martin.png",
+        "occasion": "Wedding gift",
+        "description": "A book created by both families to celebrate the union of two histories.",
+        "contributors": 35
+      },
+      {
+        "id": "5",
+        "name": "Julien Thomas",
+        "image": "1. Julien Thomas .png",
+        "occasion": "50th Birthday",
+        "description": "Half a century of memories gathered by his family and close friends.",
+        "contributors": 28
+      },
+      {
+        "id": "6",
+        "name": "Lucas Moreau",
+        "image": "1. Lucas Moreau.png",
+        "occasion": "Tribute",
+        "description": "A memorial book to keep alive the memories of a loved one.",
+        "contributors": 56
+      },
+      {
+        "id": "7",
+        "name": "Nora Benali",
+        "image": "1. Nora Benali.png",
+        "occasion": "30th Birthday",
+        "description": "Her friends wanted to mark this decade with a book full of laughter and adventures.",
+        "contributors": 22
+      },
+      {
+        "id": "8",
+        "name": "Pierre Leroy",
+        "image": "1. Pierre Leroy .png",
+        "occasion": "Retirement",
+        "description": "40 years in teaching, generations of students contributed to this book.",
+        "contributors": 89
+      },
+      {
+        "id": "9",
+        "name": "Sophie Dubois",
+        "image": "2. Sophie Dubois.png",
+        "occasion": "60th Birthday",
+        "description": "Her children and grandchildren created this book to celebrate their mom and grandma.",
+        "contributors": 31
+      },
+      {
+        "id": "10",
+        "name": "Thomas Bernard",
+        "image": "2. Thomas Bernard.png",
+        "occasion": "Father's Day gift",
+        "description": "A surprise book organized by his children for Father's Day.",
+        "contributors": 15
+      }
+    ]
   },
   "b2b": {
     "hero": {

@@ -8,6 +8,7 @@
   "back_to_top": "Retour en haut",
   "navbar": {
     "about": "Particulier",
+    "portfolio": "Réalisations",
     "account": "Mon compte",
     "try_free": "Essayer gratuitement",
     "language": "Langue"
@@ -306,6 +307,116 @@
         "click_here": "cliquant ici"
       }
     }
+  },
+  "portfolio": {
+    "hero_badge": "Nos r\u00e9alisations",
+    "hero_title": "D\u00e9couvrez les biographies cr\u00e9\u00e9es avec MyWai",
+    "hero_subtitle": "Chaque livre est unique, cr\u00e9\u00e9 \u00e0 partir des t\u00e9moignages et souvenirs des proches. Parcourez notre galerie pour vous inspirer.",
+    "hero_cta": "Cr\u00e9er ma biographie",
+    "hero_cta_secondary": "Voir la galerie",
+    "badge": "Galerie des livres",
+    "gallery_title": "Des histoires uniques, des souvenirs pr\u00e9cieux",
+    "gallery_subtitle": "Chaque livre MyWai raconte une vie \u00e0 travers les yeux de ceux qui l'ont partag\u00e9e. Anniversaires, d\u00e9parts en retraite, hommages... d\u00e9couvrez la diversit\u00e9 de nos r\u00e9alisations.",
+    "stats": {
+      "books_created": "Livres cr\u00e9\u00e9s",
+      "contributors": "Contributeurs",
+      "satisfaction": "Satisfaction",
+      "pages_avg": "Pages en moyenne"
+    },
+    "book_for": "Livre pour",
+    "contributors": "contributeurs",
+    "view_preview": "Voir un aper\u00e7u du livre",
+    "create_similar": "Cr\u00e9er un livre similaire",
+    "cta_text": "Vous aussi, offrez un cadeau inoubliable \u00e0 quelqu'un que vous aimez",
+    "cta_button": "Commencer mon livre",
+    "testimonial_quote": "Quand j'ai re\u00e7u ce livre rempli des souvenirs de ma famille et mes amis, j'ai compris que c'\u00e9tait le plus beau cadeau qu'on puisse m'offrir. Chaque page est un tr\u00e9sor.",
+    "testimonial_author": "Marie L.",
+    "testimonial_role": "A re\u00e7u un livre pour ses 70 ans",
+    "final_cta_title": "Pr\u00eat \u00e0 cr\u00e9er votre propre livre ?",
+    "final_cta_subtitle": "Rejoignez les centaines de familles qui ont d\u00e9j\u00e0 immortalis\u00e9 leurs souvenirs avec MyWai.",
+    "final_cta_button": "D\u00e9marrer gratuitement",
+    "books": [
+      {
+        "id": "1",
+        "name": "Marie Laurent",
+        "image": "1. Marie Laurent .png",
+        "occasion": "Anniversaire 70 ans",
+        "description": "Un livre \u00e9mouvant retra\u00e7ant 70 ans de vie, de voyages et de moments partag\u00e9s en famille.",
+        "contributors": 24
+      },
+      {
+        "id": "2",
+        "name": "Alain Girard",
+        "image": "1. Alain Girard.png",
+        "occasion": "D\u00e9part en retraite",
+        "description": "Apr\u00e8s 35 ans de carri\u00e8re, ses coll\u00e8gues et amis lui ont offert ce t\u00e9moignage unique.",
+        "contributors": 42
+      },
+      {
+        "id": "3",
+        "name": "Clara Petit",
+        "image": "1. Clara Petit.png",
+        "occasion": "Anniversaire 40 ans",
+        "description": "Ses amis d'enfance ont rassembl\u00e9 leurs plus beaux souvenirs pour cette \u00e9tape importante.",
+        "contributors": 18
+      },
+      {
+        "id": "4",
+        "name": "\u00c9lodie Martin",
+        "image": "1. Elodie Martin.png",
+        "occasion": "Cadeau de mariage",
+        "description": "Un livre cr\u00e9\u00e9 par les deux familles pour c\u00e9l\u00e9brer l'union de deux histoires.",
+        "contributors": 35
+      },
+      {
+        "id": "5",
+        "name": "Julien Thomas",
+        "image": "1. Julien Thomas .png",
+        "occasion": "Anniversaire 50 ans",
+        "description": "Un demi-si\u00e8cle de souvenirs rassembl\u00e9s par sa famille et ses amis proches.",
+        "contributors": 28
+      },
+      {
+        "id": "6",
+        "name": "Lucas Moreau",
+        "image": "1. Lucas Moreau.png",
+        "occasion": "Hommage",
+        "description": "Un livre m\u00e9morial pour garder vivants les souvenirs d'un \u00eatre cher.",
+        "contributors": 56
+      },
+      {
+        "id": "7",
+        "name": "Nora Benali",
+        "image": "1. Nora Benali.png",
+        "occasion": "Anniversaire 30 ans",
+        "description": "Ses amis ont voulu marquer cette d\u00e9cennie avec un livre rempli de rires et d'aventures.",
+        "contributors": 22
+      },
+      {
+        "id": "8",
+        "name": "Pierre Leroy",
+        "image": "1. Pierre Leroy .png",
+        "occasion": "D\u00e9part en retraite",
+        "description": "40 ans dans l'enseignement, des g\u00e9n\u00e9rations d'\u00e9l\u00e8ves ont contribu\u00e9 \u00e0 ce livre.",
+        "contributors": 89
+      },
+      {
+        "id": "9",
+        "name": "Sophie Dubois",
+        "image": "2. Sophie Dubois.png",
+        "occasion": "Anniversaire 60 ans",
+        "description": "Ses enfants et petits-enfants ont cr\u00e9\u00e9 ce livre pour c\u00e9l\u00e9brer leur maman et mamie.",
+        "contributors": 31
+      },
+      {
+        "id": "10",
+        "name": "Thomas Bernard",
+        "image": "2. Thomas Bernard.png",
+        "occasion": "Cadeau p\u00e8re",
+        "description": "Un livre surprise organis\u00e9 par ses enfants pour la f\u00eate des p\u00e8res.",
+        "contributors": 15
+      }
+    ]
   },
   "b2b": {
     "hero": {
