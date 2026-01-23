@@ -10,7 +10,8 @@
     "about": "Particulier",
     "account": "Mon compte",
     "try_free": "Essayer gratuitement",
-    "language": "Langue"
+    "language": "Langue",
+    "gift_card": "Offrir My Wai"
   },
   "hero": {
     "title": "Offrez le plus beau des cadeaux :",
@@ -126,6 +127,19 @@
       }
     ],
     "cta_button": "Créer une biographie"
+  },
+  "gift_card_section": {
+    "title": "Offrez My Wai",
+    "subtitle": "Une carte cadeau pour offrir une biographie unique",
+    "description": "Vous ne connaissez pas encore tous les détails ? Offrez une carte cadeau My Wai et laissez le destinataire créer sa propre biographie personnalisée. Le cadeau parfait pour toutes les occasions.",
+    "price": "99€",
+    "cta_button": "Acheter une carte cadeau",
+    "features": [
+      "Valable 1 an",
+      "Envoi immédiat par email",
+      "Personnalisez votre message",
+      "Utilisable pour tout type de biographie"
+    ]
   },
   "faq_section": {
     "title": "Questions fréquentes",

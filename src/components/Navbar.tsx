@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Menu, X, ChevronDown, Facebook, Instagram, Linkedin, Gift } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Button from "./ui/button/Button";
 import { Dropdown } from "./ui/dropdown/Dropdown";
@@ -84,6 +84,18 @@ const Navbar = () => {
             rel="noopener noreferrer"
           >
             {t("navbar.account")}
+          </a>
+          <a
+            href="#gift-card"
+            className="flex items-center gap-1.5 text-mywai font-semibold hover:text-mywai-dark transition-colors"
+            onClick={(e) => {
+              e.preventDefault();
+              const giftCardSection = document.getElementById("gift-card");
+              giftCardSection?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            <Gift size={18} />
+            {t("navbar.gift_card")}
           </a>
 
           {/* Réseaux sociaux */}
@@ -194,6 +206,19 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               {t("navbar.account")}
+            </a>
+            <a
+              href="#gift-card"
+              className="flex items-center gap-1.5 text-mywai font-semibold hover:text-mywai-dark py-2 transition-colors"
+              onClick={(e) => {
+                e.preventDefault();
+                const giftCardSection = document.getElementById("gift-card");
+                giftCardSection?.scrollIntoView({ behavior: "smooth" });
+                setIsMenuOpen(false);
+              }}
+            >
+              <Gift size={18} />
+              {t("navbar.gift_card")}
             </a>
             <Button
               variant="primary"

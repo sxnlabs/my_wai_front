@@ -10,7 +10,8 @@
     "about": "¿Qué es MyWai?",
     "account": "Mi cuenta",
     "try_free": "Prueba gratis",
-    "language": "Idioma"
+    "language": "Idioma",
+    "gift_card": "Regalar My Wai"
   },
   "hero": {
     "title": "Regala el más hermoso de los regalos: una",
@@ -125,6 +126,19 @@
       }
     ],
     "cta_button": "Crear una biografía"
+  },
+  "gift_card_section": {
+    "title": "Regala My Wai",
+    "subtitle": "Una tarjeta regalo para una biografía única",
+    "description": "¿Aún no conoces todos los detalles? Regala una tarjeta My Wai y deja que el destinatario cree su propia biografía personalizada. El regalo perfecto para todas las ocasiones.",
+    "price": "99€",
+    "cta_button": "Comprar tarjeta regalo",
+    "features": [
+      "Válida durante 1 año",
+      "Envío inmediato por email",
+      "Personaliza tu mensaje",
+      "Usable para cualquier tipo de biografía"
+    ]
   },
   "faq_section": {
     "title": "Preguntas frecuentes",

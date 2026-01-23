@@ -11,6 +11,7 @@ const Process = lazy(() => import('../components/B2C/Process'));
 const ExampleCalameo = lazy(() => import('../components/B2C/ExampleCalameo'));
 const Pricing = lazy(() => import('../components/B2C/Pricing'));
 const Testimonials = lazy(() => import('../components/B2C/Testimonials'));
+const GiftCard = lazy(() => import('../components/B2C/GiftCard'));
 const FAQ = lazy(() => import('@/components/FAQ'));
 
 const Index = () => {
@@ -58,7 +59,7 @@ const Index = () => {
         <Testimonials />
       </LazyWrapper>
       
-      <LazyWrapper 
+      <LazyWrapper
         minHeight="500px"
         fallback={
           <div className="section-padding bg-cream flex items-center justify-center">
@@ -68,8 +69,19 @@ const Index = () => {
       >
         <Pricing />
       </LazyWrapper>
-      
-      <LazyWrapper 
+
+      <LazyWrapper
+        minHeight="200px"
+        fallback={
+          <div className="py-12 bg-cream flex items-center justify-center">
+            <LoadingSpinner size="md" text="Chargement..." />
+          </div>
+        }
+      >
+        <GiftCard />
+      </LazyWrapper>
+
+      <LazyWrapper
         minHeight="400px"
         fallback={
           <div className="section-padding bg-white flex items-center justify-center">
