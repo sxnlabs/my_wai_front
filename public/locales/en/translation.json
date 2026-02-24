@@ -10,6 +10,7 @@
     "about": "What is My Wai?",
     "account": "My account",
     "try_free": "Try for free",
+    "gift_card": "Offer a gift card",
     "language": "Language"
   },
   "hero": {
@@ -57,6 +58,9 @@
     "how_to_description": "Launch your project today and offer a gift that will remain engraved in memories.",
     "cta_button": "Create my book",
     "payment_security": "Secure payment - Satisfaction guaranteed",
+    "gift_card_title": "Not sure when to give it?",
+    "gift_card_description": "Offer a My Wai gift card. The recipient chooses when to create the biography.",
+    "gift_card_button": "Offer a gift card",
     "additional_options_title": "Need additional options?",
     "additional_options_description": "Contact us for special requests like corporate gifts, retirement gift ideas, additional copies, developments..."
   },

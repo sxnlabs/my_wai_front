@@ -10,6 +10,7 @@
     "about": "Particulier",
     "account": "Mon compte",
     "try_free": "Essayer gratuitement",
+    "gift_card": "Offrir une carte cadeau",
     "language": "Langue"
   },
   "hero": {
@@ -57,6 +58,9 @@
     "how_to_description": "Lancez votre projet dès aujourd'hui et offrez un cadeau qui restera gravé dans les mémoires.",
     "cta_button": "Créer mon livre",
     "payment_security": "Paiement sécurisé - Satisfaction garantie",
+    "gift_card_title": "Vous ne savez pas quand offrir ?",
+    "gift_card_description": "Offrez une carte cadeau My Wai. La personne choisit elle-même son moment pour créer la biographie.",
+    "gift_card_button": "Offrir une carte cadeau",
     "additional_options_title": "Besoin d'options supplémentaires ?",
     "additional_options_description": "Contactez-nous pour des demandes spéciales comme des cadeaux d'entreprises, idée cadeau départ en retraite, des exemplaires supplémentaires, des évolutions..."
   },

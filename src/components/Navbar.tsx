@@ -7,6 +7,7 @@ import {
   Facebook,
   Instagram,
   Linkedin,
+  Gift,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Button from "./ui/button/Button";
@@ -123,6 +124,16 @@ const Navbar = () => {
             </a>
           </div>
 
+          <form method="POST" action="https://app.my-w.ai/gift_cards">
+            <Button
+              variant="outline"
+              size="sm"
+              startIcon={<Gift size={16} />}
+              className="!border-amber-500 !text-amber-600 hover:!bg-amber-500 hover:!text-white"
+            >
+              {t("navbar.gift_card")}
+            </Button>
+          </form>
           <Button
             variant="primary"
             size="sm"
@@ -201,6 +212,16 @@ const Navbar = () => {
             >
               {t("navbar.account")}
             </a>
+            <form method="POST" action="https://app.my-w.ai/gift_cards">
+              <Button
+                variant="outline"
+                size="sm"
+                startIcon={<Gift size={16} />}
+                className="!border-amber-500 !text-amber-600 hover:!bg-amber-500 hover:!text-white w-full"
+              >
+                {t("navbar.gift_card")}
+              </Button>
+            </form>
             <Button
               variant="primary"
               size="sm"

@@ -1,4 +1,4 @@
-import { ArrowRight, Check } from "lucide-react";
+import { ArrowRight, Check, Gift } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Button from "../ui/button/Button";
 
@@ -71,6 +71,33 @@ const Pricing = () => {
               </div>
             </div>
             <div className="mt-8 pt-6 border-t border-gray-100">
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 flex flex-col sm:flex-row items-center gap-4">
+                <div className="flex-shrink-0">
+                  <div className="bg-amber-100 rounded-full p-3">
+                    <Gift className="h-6 w-6 text-amber-600" />
+                  </div>
+                </div>
+                <div className="flex-1 text-center sm:text-left">
+                  <h4 className="font-display font-bold text-amber-800 mb-1">
+                    {t("pricing_section.gift_card_title")}
+                  </h4>
+                  <p className="text-sm text-amber-700">
+                    {t("pricing_section.gift_card_description")}
+                  </p>
+                </div>
+                <form method="POST" action="https://app.my-w.ai/gift_cards" className="flex-shrink-0">
+                  <Button
+                    variant="outline"
+                    size="md"
+                    startIcon={<Gift className="h-4 w-4" />}
+                    className="!border-amber-500 !text-amber-600 hover:!bg-amber-500 hover:!text-white whitespace-nowrap"
+                  >
+                    {t("pricing_section.gift_card_button")}
+                  </Button>
+                </form>
+              </div>
+            </div>
+            <div className="mt-4">
               <h4 className="font-medium mb-2">
                 {t("pricing_section.additional_options_title")}
               </h4>

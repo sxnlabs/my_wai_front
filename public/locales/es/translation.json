@@ -10,6 +10,7 @@
     "about": "¿Qué es My Wai?",
     "account": "Mi cuenta",
     "try_free": "Prueba gratis",
+    "gift_card": "Regalar una tarjeta regalo",
     "language": "Idioma"
   },
   "hero": {
@@ -57,6 +58,9 @@
     "how_to_description": "Lanza tu proyecto hoy y ofrece un regalo que quedará grabado en las memorias.",
     "cta_button": "Crear mi libro",
     "payment_security": "Pago seguro - Satisfacción garantizada",
+    "gift_card_title": "¿No sabes cuándo regalarlo?",
+    "gift_card_description": "Regala una tarjeta regalo de My Wai. La persona elige cuándo crear la biografía.",
+    "gift_card_button": "Regalar una tarjeta regalo",
     "additional_options_title": "¿Necesitas opciones adicionales?",
     "additional_options_description": "Contáctanos para solicitudes especiales como regalos corporativos, ideas de regalo de jubilación, copias adicionales, desarrollos..."
   },
