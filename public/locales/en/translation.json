@@ -10,7 +10,11 @@
     "about": "What is My Wai?",
     "account": "My account",
     "try_free": "Try for free",
+    "gift_card": "Gift a gift card",
     "language": "Language"
+  },
+  "gift_card": {
+    "button": "Gift a gift card"
   },
   "hero": {
     "title": "Give the most beautiful gift:",

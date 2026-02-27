@@ -10,7 +10,11 @@
     "about": "Particulier",
     "account": "Mon compte",
     "try_free": "Essayer gratuitement",
+    "gift_card": "Offrir une carte cadeau",
     "language": "Langue"
+  },
+  "gift_card": {
+    "button": "Offrir une carte cadeau"
   },
   "hero": {
     "title": "Offrez le plus beau des cadeaux :",

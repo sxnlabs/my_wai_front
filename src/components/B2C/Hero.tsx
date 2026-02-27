@@ -56,6 +56,7 @@ const Hero = () => {
               >
                 {t("hero.cta_secondary")}
               </Button>
+
             </div>
           </div>
 

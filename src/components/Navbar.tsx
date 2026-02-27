@@ -123,6 +123,14 @@ const Navbar = () => {
             </a>
           </div>
 
+          <form method="post" action="https://app.my-w.ai/gift_cards">
+            <button
+              type="submit"
+              className="inline-flex items-center justify-center gap-2 rounded-lg transition px-4 py-3 text-sm border-2 border-mywai text-mywai hover:bg-mywai hover:text-white font-medium"
+            >
+              🎁 {t("navbar.gift_card")}
+            </button>
+          </form>
           <Button
             variant="primary"
             size="sm"
@@ -201,6 +209,14 @@ const Navbar = () => {
             >
               {t("navbar.account")}
             </a>
+            <form method="post" action="https://app.my-w.ai/gift_cards" className="w-full">
+              <button
+                type="submit"
+                className="inline-flex items-center justify-center gap-2 rounded-lg transition px-4 py-3 text-sm border-2 border-mywai text-mywai hover:bg-mywai hover:text-white font-medium w-full"
+              >
+                🎁 {t("navbar.gift_card")}
+              </button>
+            </form>
             <Button
               variant="primary"
               size="sm"

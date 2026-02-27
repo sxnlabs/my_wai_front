@@ -10,7 +10,11 @@
     "about": "¿Qué es My Wai?",
     "account": "Mi cuenta",
     "try_free": "Prueba gratis",
+    "gift_card": "Regalar una tarjeta regalo",
     "language": "Idioma"
+  },
+  "gift_card": {
+    "button": "Regalar una tarjeta regalo"
   },
   "hero": {
     "title": "Regala el más hermoso de los regalos:",
