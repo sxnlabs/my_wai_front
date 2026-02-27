@@ -213,7 +213,6 @@ const Navbar = () => {
               <button
                 type="submit"
                 className="inline-flex items-center justify-center gap-2 rounded-lg transition px-4 py-3 text-sm border-2 border-mywai text-mywai hover:bg-mywai hover:text-white font-medium w-full"
-                onClick={() => setIsMenuOpen(false)}
               >
                 🎁 {t("navbar.gift_card")}
               </button>
