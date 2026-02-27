@@ -56,6 +56,14 @@ const Hero = () => {
               >
                 {t("hero.cta_secondary")}
               </Button>
+              <form method="post" action="https://app.my-w.ai/gift_cards">
+                <button
+                  type="submit"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg transition px-6 py-4 text-base font-medium border-2 border-mywai text-mywai hover:bg-mywai hover:text-white w-full sm:w-auto transform hover:-translate-y-1"
+                >
+                  🎁 {t("gift_card.button")}
+                </button>
+              </form>
             </div>
           </div>
 
