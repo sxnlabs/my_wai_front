@@ -160,6 +160,10 @@
       {
         "question": "Et si je veux créer un livre pour quelqu'un d'autre ?",
         "answer": "C'est tout à fait possible ! Vous pouvez offrir un livre, créer un projet à plusieurs (avec cagnotte ou pas), et inviter les proches à y contribuer facilement."
+      },
+      {
+        "question": "Quel est le délai de livraison ?",
+        "answer": "Une fois le contenu validé pour impression, comptez environ 15 jours ouvrés pour recevoir votre livre. Ce délai inclut l'impression et la livraison. La livraison est offerte en France métropolitaine."
       }
     ]
   },
